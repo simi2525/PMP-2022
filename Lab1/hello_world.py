@@ -28,7 +28,7 @@ axes[1].scatter(X2, Y, alpha=0.6)
 axes[0].set_ylabel("Y")
 axes[0].set_xlabel("X1")
 axes[1].set_xlabel("X2")
-fig.show()
+plt.show()
 
 # Define a model
 basic_model = pm.Model()
